@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utrujah Pamekasan — TPA • KB/TK • SDQ • TPQ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#beranda" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="logo1.png" alt="Logo Utrujah Pamekasan">
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#beranda">Beranda</a>
+      <div class="nav-dropdown">
+        <a href="#profil" class="nav-dropdown-toggle">
+          Profil
+          <svg viewBox="0 0 24 24" width="14" height="14" class="nav-caret"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+        </a>
+        <div class="nav-dropdown-menu">
+          <a href="#profil">Tentang Kami</a>
+          <a href="#visimisi">Visi &amp; Misi</a>
+          <a href="#pimpinan">Pimpinan Lembaga</a>
+          <a href="#guru">Staf Guru</a>
+        </div>
+      </div>
+      <a href="#program">Program</a>
+      <a href="#prestasi">Prestasi</a>
+      <a href="#berita">Berita</a>
+      <a href="#ppdb">PPDB</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <a href="#ppdb" class="btn btn-primary nav-cta">Daftar Sekarang</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="beranda">
+  <div class="hero-slider" id="heroSlider">
+
+    <div class="hero-slide active" style="background-image:url('bg1.jpeg');">
+      <div class="hero-veil"></div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow" dir="rtl" lang="ar">القرآن في القلب، والتفوّق ينتظر</p>
+        <h1 class="hero-title">
+          Selamat datang di<br>
+          <span class="hero-title-main">TPA • KB/TK • SDQ • TPQ</span><br>
+          <span class="hero-title-brand">Utrujah Pamekasan</span>
+        </h1>
+        <p class="hero-sub">Al-Qur'an di Hati, Prestasi Menanti — mencetak generasi qurani yang cerdas, kreatif, berkarakter islami, dan unggul dalam prestasi.</p>
+        <div class="hero-actions">
+          <a href="#ppdb" class="btn btn-primary">PPDB Online</a>
+          <a href="#profil" class="btn btn-outline">Lihat Profil</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image:url('bg2.jpeg');">
+      <div class="hero-veil"></div>
+      <div class="hero-content container">
+        <h1 class="hero-title hero-title-sm">Ma'had Tahfidz<br><span class="hero-title-brand">Utrujah Putri</span></h1>
+        <p class="hero-sub hero-quote">"Barang siapa yang tidak mampu menahan lelahnya belajar, maka ia harus mampu menahan perihnya kebodohan." <span>— Imam Syafi'i</span></p>
+        <div class="hero-actions">
+          <a href="#ppdb" class="btn btn-primary">PPDB Online</a>
+          <a href="#profil" class="btn btn-outline">Lihat Profil</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image:url('bg3.jpeg');">
+      <div class="hero-veil"></div>
+      <div class="hero-content container">
+        <h1 class="hero-title hero-title-sm">Mengenalkan<br><span class="hero-title-brand">Cinta Tanah Air</span></h1>
+        <p class="hero-sub">Bangsa ini merdeka adalah buah dari darah dan jiwa yang dikorbankan oleh para pahlawan. Tugas kita bersama untuk mengenang dan mendoakan para pahlawan serta mengisi kemerdekaan dengan belajar yang sungguh-sungguh.</p>
+        <div class="hero-actions">
+          <a href="#ppdb" class="btn btn-primary">PPDB Online</a>
+          <a href="#profil" class="btn btn-outline">Lihat Profil</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image:url('bg4.jpeg');">
+      <div class="hero-veil"></div>
+      <div class="hero-content container">
+        <h1 class="hero-title hero-title-sm">Mengenalkan Kecintaan<br><span class="hero-title-brand">Al-Qur'an Sejak Dini</span></h1>
+        <p class="hero-sub hero-quote">Dari Abu Umamah radhiyallahu 'anhu, ia berkata bahwa ia mendengar Rasulullah ﷺ bersabda, "Bacalah Al-Qur'an karena pada hari kiamat, ia akan datang sebagai syafaat bagi para pembacanya." <span>(H.R. Muslim)</span></p>
+        <div class="hero-actions">
+          <a href="#ppdb" class="btn btn-primary">PPDB Online</a>
+          <a href="#profil" class="btn btn-outline">Lihat Profil</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-bubbles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="hero-dots" id="heroDots"></div>
+
+    <div class="hero-bottom">
+      <ul class="hero-strip">
+        <li>
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2 2 8v2h20V8L12 2Zm-8 9v9h4v-7h4v7h4v-7h4v7h4v-9H4Z"/></svg>
+          Pendidikan Qurani Terpadu
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2 3 6v6c0 5 3.8 9.4 9 10 5.2-.6 9-5 9-10V6l-9-4Zm-1.2 14.2-3.6-3.6 1.4-1.4 2.2 2.2 5.2-5.2 1.4 1.4-6.6 6.6Z"/></svg>
+          Metode Ummi Bersanad
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M20 6h-4V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2ZM10 4h4v2h-4V4Z"/></svg>
+          Lingkungan Islami &amp; Aman
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="m12 1 3 6.3 6.9 1-5 4.8 1.2 6.9L12 16.9l-6.1 3.1L7.1 13.1l-5-4.8 6.9-1L12 1Z"/></svg>
+          Unggul dalam Prestasi
+        </li>
+      </ul>
+
+      <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,45 C120,15 240,15 360,45 C480,75 600,75 720,45 C840,15 960,15 1080,45 C1200,75 1320,75 1440,45 L1440,90 L0,90 Z" fill="var(--paper)"/>
+      </svg>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-item">
+      <span class="stat-num" data-count="150">0</span><span class="stat-plus">+</span>
+      <p>Santri Aktif</p>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="20">0</span><span class="stat-plus">+</span>
+      <p>Guru &amp; Pembimbing</p>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="4">0</span>
+      <p>Jenjang Pendidikan</p>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span>
+      <p>Tahun Berkarya</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROFIL / VISI MISI ================= -->
+<section class="section" id="profil">
+  <div class="container">
+    <div class="grid-2">
+      <div class="card">
+        <span class="eyebrow">Tentang Kami</span>
+        <h2>Utrujah Pamekasan</h2>
+        <p>Selamat datang di website kami, Utrujah Pamekasan. Website ini kami tujukan kepada seluruh unsur pimpinan, guru, pegawai, dan siswa, serta masyarakat, agar dapat mengakses segala informasi mengenai profil, kegiatan, dan fasilitas sekolah kami.</p>
+        <p>Utrujah Pamekasan menaungi jenjang TPA, KB/TK, SD Qur'an (SDQ), dan TPQ yang memadukan kurikulum nasional dengan pembelajaran Al-Qur'an, sehingga setiap anak tumbuh cerdas secara akademik sekaligus dekat dengan Al-Qur'an sejak usia dini.</p>
+        <a href="#program" class="link-arrow">Selengkapnya →</a>
+      </div>
+
+      <div class="card card-vm" id="visimisi">
+        <div class="vm-block">
+          <h3><span class="vm-icon">۞</span> Visi</h3>
+          <p>Mewujudkan masyarakat islami melalui pemahaman dan pengamalan Al-Qur'an yang baik dan benar.</p>
+        </div>
+        <div class="vm-block">
+          <h3><span class="vm-icon">۞</span> Misi</h3>
+          <ol class="vm-list">
+            <li>Menyelenggarakan kegiatan pendidikan, peribadatan, dan dakwah yang rahmatan lil'alamin.</li>
+            <li>Mengembangkan diri sejalan dengan perkembangan Iptek dan kebudayaan.</li>
+            <li>Menyelenggarakan pendidikan, pelatihan, dan pelayanan yang modern, profesional, dan islami dalam rangka pembangunan karakter bangsa, demi meningkatnya kecerdasan intelektual, emosional, dan spiritual umat secara terpadu, serta meningkatnya daya saing bangsa Indonesia dan kebangkitan kembali umat Islam.</li>
+            <li>Meningkatkan pelayanan pendidikan bagi masyarakat.</li>
+            <li>Menyediakan segala kelengkapan untuk kemudahan beribadah, mewujudkan dan memperbanyak aktivitas keilmuan, serta melahirkan masyarakat yang terampil dan mandiri.</li>
+            <li>Membangkitkan daya juang bagi kemuliaan dan kebahagiaan masa depan.</li>
+          </ol>
+        </div>
+        <blockquote class="qs">
+          "Ya Tuhanku, tambahkanlah kepadaku ilmu dan berikanlah aku pemahaman yang baik" <span>(QS. Thaha: 114)</span>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JENJANG PENDIDIKAN ================= -->
+<section class="section section-alt" id="program">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">Program Pendidikan</span>
+      <h2 class="center">Jenjang Pendidikan</h2>
+    </div>
+
+    <div class="jenjang-tabs">
+      <div class="tab-buttons" id="tabButtons" role="tablist">
+        <button class="tab-btn active" data-tab="kbtk" role="tab" aria-selected="true">KB &amp; TK</button>
+        <button class="tab-btn" data-tab="sdq" role="tab" aria-selected="false">SD Qur'an</button>
+        <button class="tab-btn" data-tab="tpq" role="tab" aria-selected="false">TPQ &amp; Ma'had</button>
+      </div>
+
+      <div class="tab-panels">
+        <div class="tab-panel active" data-panel="kbtk">
+          <div class="jenjang-card">
+            <span class="jenjang-tag">KB • TK</span>
+            <h3>KB &amp; TK Utrujah</h3>
+            <ul>
+              <li>Pendidikan usia dini islami</li>
+              <li>Tahfidz Al-Qur'an dasar</li>
+              <li>Pembelajaran bermain sambil belajar</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-panel" data-panel="sdq">
+          <div class="jenjang-card jenjang-card-accent">
+            <span class="jenjang-tag">SDQ</span>
+            <h3>SD Qur'an (SDQ)</h3>
+            <ul>
+              <li>Kurikulum nasional terpadu</li>
+              <li>Tahfidz &amp; tahsin dengan Metode Ummi</li>
+              <li>Pembinaan karakter dan prestasi akademik</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-panel" data-panel="tpq">
+          <div class="jenjang-card">
+            <span class="jenjang-tag">TPQ • Ma'had</span>
+            <h3>TPQ &amp; Ma'had Tahfidz</h3>
+            <ul>
+              <li>Pembelajaran baca Al-Qur'an berjenjang</li>
+              <li>Program tahfidz intensif</li>
+              <li>Bimbingan guru bersanad</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head" style="margin-top:64px;">
+      <span class="eyebrow center">Keunggulan</span>
+      <h2 class="center">Program Unggulan</h2>
+    </div>
+
+    <div class="unggulan-grid">
+      <div class="unggulan-item"><span class="u-icon">﴾ﷲ﴿</span>Tahfidz Al-Qur'an</div>
+      <div class="unggulan-item"><span class="u-icon">✎</span>Metode Ummi</div>
+      <div class="unggulan-item"><span class="u-icon">ع</span>Bahasa Arab</div>
+      <div class="unggulan-item"><span class="u-icon">EN</span>Bahasa Inggris</div>
+      <div class="unggulan-item"><span class="u-icon">▣</span>IT &amp; Teknologi</div>
+      <div class="unggulan-item"><span class="u-icon">☺</span>Character Building</div>
+      <div class="unggulan-item"><span class="u-icon">☾</span>Kegiatan Islami</div>
+      <div class="unggulan-item"><span class="u-icon">✦</span>Pembinaan Prestasi</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PIMPINAN LEMBAGA ================= -->
+<section class="section" id="pimpinan">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">Struktur Kepemimpinan</span>
+      <h2 class="center">Pimpinan Lembaga</h2>
+      <p class="people-intro">Dibawah ini adalah pimpinan lembaga TPA, KB, TK, SD dan TPQ yang berada di bawah naungan Utrujah Pamekasan.</p>
+    </div>
+
+    <div class="people-carousel">
+      <button class="people-arrow prev" data-target="pimpinanTrack" aria-label="Sebelumnya">‹</button>
+      <div class="people-track" id="pimpinanTrack">
+        <div class="people-card">
+          <div class="people-photo"><img src="pimpinan1.jpeg" alt="Ustadzah Fitri"></div>
+          <div class="people-info">
+            <h3>Ustadzah Fitri</h3>
+            <p>Kepala SD Qur'an Utrujah</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="pimpinan2.jpeg" alt="Ustadz Zaini"></div>
+          <div class="people-info">
+            <h3>Ustadz Zaini</h3>
+            <p>Kepala TPQ Utrujah</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="pimpinan3.jpeg" alt="Ustadz Nurje"></div>
+          <div class="people-info">
+            <h3>Ustadz Nurje</h3>
+            <p>Koordinator TPQ Utrujah</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="pimpinan4.jpeg" alt="Ustadzah Rini"></div>
+          <div class="people-info">
+            <h3>Ustadzah Rini</h3>
+            <p>Kepala TPA Rutaba Utrujah</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="pimpinan5.jpeg" alt="Ustadzah Sufi"></div>
+          <div class="people-info">
+            <h3>Ustadzah Sufi</h3>
+            <p>Kepala TK Tahfidz Utrujah</p>
+          </div>
+        </div>
+      </div>
+      <button class="people-arrow next" data-target="pimpinanTrack" aria-label="Berikutnya">›</button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GURU & STAF PENGAJAR ================= -->
+<section class="section section-alt" id="guru">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">Tenaga Pengajar</span>
+      <h2 class="center">Guru &amp; Staf Pengajar</h2>
+      <p class="people-intro">Para ustadz dan ustadzah yang membimbing dan mendampingi santri-santri Utrujah Pamekasan setiap harinya.</p>
+    </div>
+
+    <div class="people-carousel">
+      <button class="people-arrow prev" data-target="guruTrack" aria-label="Sebelumnya">‹</button>
+      <div class="people-track" id="guruTrack">
+        <div class="people-card">
+          <div class="people-photo"><img src="guru1.jpeg" alt="Guru 1"></div>
+          <div class="people-info">
+            <h3>Nama Guru 1</h3>
+            <p>Pengajar Tahfidz</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="guru2.jpeg" alt="Guru 2"></div>
+          <div class="people-info">
+            <h3>Nama Guru 2</h3>
+            <p>Pengajar Metode Ummi</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="guru3.jpeg" alt="Guru 3"></div>
+          <div class="people-info">
+            <h3>Nama Guru 3</h3>
+            <p>Pengajar Bahasa Arab</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="guru4.jpeg" alt="Guru 4"></div>
+          <div class="people-info">
+            <h3>Nama Guru 4</h3>
+            <p>Pengajar Bahasa Inggris</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="guru5.jpeg" alt="Guru 5"></div>
+          <div class="people-info">
+            <h3>Nama Guru 5</h3>
+            <p>Wali Kelas KB/TK</p>
+          </div>
+        </div>
+        <div class="people-card">
+          <div class="people-photo"><img src="guru6.jpeg" alt="Guru 6"></div>
+          <div class="people-info">
+            <h3>Nama Guru 6</h3>
+            <p>Pengajar Character Building</p>
+          </div>
+        </div>
+      </div>
+      <button class="people-arrow next" data-target="guruTrack" aria-label="Berikutnya">›</button>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SAMBUTAN + PRESTASI ================= -->
+<section class="section" id="sambutan">
+  <div class="container">
+    <div class="grid-2">
+      <div class="card sambutan-card">
+        <span class="eyebrow">Sambutan</span>
+        <h2>Sambutan Kepala Sekolah</h2>
+        <div class="sambutan-body">
+          <div class="sambutan-photo">
+            <img src="kepsek.jpeg" alt="Kepala Sekolah Utrujah Pamekasan">
+          </div>
+          <div class="sambutan-text">
+            <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
+            <p>Alhamdulillah, puji syukur ke hadirat Allah SWT atas limpahan nikmat dan karunia-Nya sehingga TPA, KB/TK, SDQ, dan TPQ Utrujah Pamekasan dapat terus berkembang dalam mencetak generasi qurani dan berprestasi.</p>
+            <p>Kami berkomitmen memberikan pendidikan terbaik bagi putra-putri kita, dengan bimbingan para guru yang profesional dan lingkungan sekolah yang islami.</p>
+            <p class="salam">Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card prestasi-card" id="prestasi">
+        <span class="eyebrow">Prestasi</span>
+        <h2>Prestasi Santri</h2>
+        <div class="prestasi-slider">
+          <button class="slider-btn prev" id="prestasiPrev" aria-label="Sebelumnya">‹</button>
+          <div class="prestasi-track" id="prestasiTrack">
+            <div class="prestasi-slide">
+              <div class="prestasi-badge">Juara 2 — Musabaqah Tahfidz Juz 30</div>
+              <p>Tingkat Kabupaten Pamekasan</p>
+            </div>
+            <div class="prestasi-slide">
+              <div class="prestasi-badge">Akreditasi A — SDQ Utrujah Pamekasan</div>
+              <p>Kado terindah di awal tahun ajaran</p>
+            </div>
+            <div class="prestasi-slide">
+              <div class="prestasi-badge">Munaqasyah Tahfidz Juz 1–29</div>
+              <p>Diikuti oleh santri berbagai jenjang</p>
+            </div>
+          </div>
+          <button class="slider-btn next" id="prestasiNext" aria-label="Berikutnya">›</button>
+        </div>
+        <div class="slider-dots" id="prestasiDots"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BERITA ================= -->
+<section class="section section-alt" id="berita">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow center">Kabar Utrujah</span>
+      <h2 class="center">Berita &amp; Kegiatan</h2>
+    </div>
+
+    <div class="grid-3 berita-grid">
+      <article class="berita-card">
+        <div class="berita-img"><img src="berita1.jpeg" alt="Upacara bendera dan pemberian hadiah lomba"></div>
+        <span class="berita-tag">Kegiatan</span>
+        <h3>Upacara Bendera &amp; Pemberian Hadiah Lomba</h3>
+        <p>Santri Utrujah Pamekasan mengikuti upacara bendera yang dirangkai dengan pemberian hadiah bagi para pemenang lomba, sebagai bentuk apresiasi atas semangat belajar dan berprestasi.</p>
+        <a href="#" class="link-arrow">Baca Selengkapnya →</a>
+      </article>
+
+      <article class="berita-card">
+        <div class="berita-img"><img src="berita2.jpeg" alt="SDQ Utrujah Pamekasan terakreditasi A"></div>
+        <span class="berita-tag">Prestasi</span>
+        <h3>SDQ Utrujah Pamekasan Terakreditasi A</h3>
+        <p>Alhamdulillah, SDQ Utrujah Pamekasan resmi meraih akreditasi A, menjadi amanah baru sekaligus bukti komitmen sekolah dalam menghadirkan pendidikan qurani yang berkualitas.</p>
+        <a href="#" class="link-arrow">Baca Selengkapnya →</a>
+      </article>
+
+      <article class="berita-card">
+        <div class="berita-img"><img src="berita3.jpeg" alt="Munaqasyah Tahfidz Al-Qur'an"></div>
+        <span class="berita-tag">Tahfidz</span>
+        <h3>Munaqasyah Tahfidz Al-Qur'an</h3>
+        <p>Kegiatan munaqasyah tahfidz Juz 1, 2, 3, 11, 12, 26, 28, dan 29 terlaksana dengan lancar, menjadi tolok ukur pencapaian hafalan santri di berbagai jenjang.</p>
+        <a href="#" class="link-arrow">Baca Selengkapnya →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PPDB ================= -->
+<section class="ppdb" id="ppdb">
+  <div class="container ppdb-inner">
+    <div class="ppdb-info">
+      <span class="eyebrow eyebrow-light">PPDB</span>
+      <h2>Penerimaan Peserta Didik Baru</h2>
+      <p>Tahun Ajaran 2026/2027</p>
+      <a href="#kontak" class="btn btn-light">Daftar Sekarang →</a>
+    </div>
+    <div class="ppdb-steps">
+      <div class="ppdb-step">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7Zm-2 8h14v10H5V10Z"/></svg>
+        <h4>Jadwal Pendaftaran</h4>
+        <p>1 Januari – 30 Juni 2026</p>
+      </div>
+      <div class="ppdb-step">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm8 1.5V8h4.5L14 3.5Z"/></svg>
+        <h4>Syarat Pendaftaran</h4>
+        <p>Akta kelahiran, KK, pas foto</p>
+      </div>
+      <div class="ppdb-step">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 4V1L8 5l4 4V6a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8Z"/></svg>
+        <h4>Alur Pendaftaran</h4>
+        <p>Isi formulir → tes/observasi → pengumuman</p>
+      </div>
+      <div class="ppdb-step">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm1 15h-2v-6h2v6Zm0-8h-2V7h2v2Z"/></svg>
+        <h4>Informasi Lengkap</h4>
+        <p>Unduh brosur &amp; info biaya</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KONTAK ================= -->
+<section class="section" id="kontak">
+  <div class="container">
+    <div class="grid-2 kontak-grid">
+      <div>
+        <span class="eyebrow">Kontak Kami</span>
+        <h2>Hubungi Utrujah Pamekasan</h2>
+        <ul class="kontak-list">
+          <li>
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.3 7 13 7 13s7-7.7 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 14.5 9 2.5 2.5 0 0 1 12 11.5Z"/></svg>
+            <span>Jl. Niaga No. 44, Pamekasan, Jawa Timur</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M6.6 10.8a15.7 15.7 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11 11 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11 11 0 0 0 .6 3.6 1 1 0 0 1-.25 1L6.6 10.8Z"/></svg>
+            <span>(+62) 822 3536 7378</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
+            <span>info@utrujahpamekasan.or.id</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm.5-13h-1.5v6l5.2 3.1.75-1.23-4.45-2.64Z"/></svg>
+            <span>Senin – Sabtu, 07.30 – 15.00 WIB</span>
+          </li>
+        </ul>
+      </div>
+      <div class="map-card">
+        <iframe
+          class="map-embed"
+          src="https://www.google.com/maps?q=Jl.+Niaga+No.+44,+Pamekasan,+Jawa+Timur&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          title="Lokasi Utrujah Pamekasan"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="logo1.png" alt="Logo Utrujah Pamekasan">
+        </span>
+      </div>
+      <p>Mencetak generasi qurani yang cerdas, kreatif, berkarakter islami, dan unggul dalam prestasi.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Menu Cepat</h4>
+      <a href="#beranda">Beranda</a>
+      <a href="#profil">Profil Sekolah</a>
+      <a href="#pimpinan">Pimpinan Lembaga</a>
+      <a href="#guru">Guru &amp; Staf Pengajar</a>
+      <a href="#ppdb">Info PPDB 2026/2027</a>
+      <a href="#berita">Berita &amp; Kegiatan</a>
+      <a href="#kontak">Hubungi Kami</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Program Unggulan</h4>
+      <a href="#program">Tahfidz Al-Qur'an</a>
+      <a href="#program">Bahasa Arab &amp; Inggris</a>
+      <a href="#program">IT &amp; Teknologi</a>
+      <a href="#program">Character Building</a>
+      <a href="#program">Kegiatan Islami</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 Utrujah Pamekasan. Seluruh hak cipta dilindungi.</div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 4 4 12l1.4 1.4L11 7.8V20h2V7.8l5.6 5.6L20 12Z"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
